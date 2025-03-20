@@ -1,0 +1,104 @@
+/* Home.css */
+
+/* Light Orange Background */
+.container {
+    background-color: #ffe5b4; /* Light orange */
+    padding: 20px;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .heading {
+    color: #d2691e; /* Chocolate color */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Form container */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    width: 250px;
+    padding: 8px;
+    border: 2px solid #d2691e;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  /* Buttons */
+  .button {
+    background-color: #d2691e; /* Chocolate */
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #a0522d; /* Darker brown */
+  }
+  
+  /* Table Styling */
+  .table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #d2691e;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #ffcc99;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #fff5e1;
+  }
+  
+  /* Delete Button */
+  .delete-button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  
+  /* Update Button */
+  .update-button {
+    background-color: #008cba;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-button:hover {
+    background-color: #005f73;
+  }
+  

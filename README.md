@@ -1,2 +1,8 @@
-# REACT_CRUD
-This is a Student Management CRUD Application built using ReactJS and Vite. It allows users to add, update, display, and delete student records using APIs. Axios is used for API requests, and the UI is styled with external CSS. 🚀
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

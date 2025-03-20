@@ -1,0 +1,53 @@
+/* Update.css */
+
+/* Container */
+.container {
+    background-color: #ffe5b4; /* Light orange */
+    padding: 20px;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .heading {
+    color: #d2691e; /* Chocolate color */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Form */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    width: 250px;
+    padding: 8px;
+    border: 2px solid #d2691e;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    background-color: #d2691e;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #a0522d;
+  }
+  
